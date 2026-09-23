@@ -1,4 +1,41 @@
 body {
-  background-color: #ebeee9;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebeee9;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #456e40;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 50px;
+}
+
+.logo {
+  width: 120px;
+  display: block;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+nav ul li a {
+  transition: 0.2s;
+  color: #ebeee9;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #79da6e;
+  font-weight: bold;
 }
