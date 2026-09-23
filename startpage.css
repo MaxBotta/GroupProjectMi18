@@ -1,0 +1,88 @@
+body {
+    background-color: #EBEEE9;
+    padding: 120px;
+    padding-left: 300px;
+    padding-right: 200px;
+}
+
+.info {
+    color: rgb(22, 105, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0;
+}
+
+.maintext {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grund {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+.unserekurse {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid blue;
+    color: blue;
+    width: 170px;
+    height: 40px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.besuchen {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px;
+    width: 170px;
+    height: 40px;
+    background-color: blue;
+    border: 0px solid blue;
+    margin-left: 40px;
+}
+
+.div2 {
+    justify-content: end;
+    align-content: end;
+    justify-items: end;
+    align-items: end;
+    display: flex;
+}
+.kurse {
+    padding-top: 300px;
+    position: absolute;
+}
+.themen {
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 105, 156);
+    text-align: center;
+}
+.themengebiete {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.div3 {
+    height: 400px;
+    background-color: white;
+    width: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 4px dashed black ;
+}
+h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.div4 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
