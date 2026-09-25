@@ -1,3 +1,88 @@
 body {
   background-color: #EBEEE9;
 }
+
+footer {
+  background-color: rgb(65, 112, 64);
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 2px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+.footer_head{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer_head_right{
+  display: flex;
+  gap: 10px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.email_input{
+  border-radius: 10px;
+  border: 2px white solid;
+  width: 260px;
+}
+
+.hr_footer{
+  width: 800px;
+}
+
+.sub_button{
+  background-color: rgb(41, 133, 220);
+  border-color: rgb(42, 164, 204);
+}
+
+.footer_mid{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+ul{
+  list-style: none;
+}
+
+.Kurse{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+
+.Links{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+
+.Themen{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+
+.footer_footer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+
+.footer_right{
+  display: flex;
+  gap: 8px;
+
+}
+
