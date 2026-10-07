@@ -12,6 +12,18 @@ header {
   top: 0;
   z-index: 1000;
 }
+nav ul li a {
+  display: inline-block;
+  color: #ebeee9;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  color: #79da6e;
+  opacity: 0.8;
+  transform: scale(1.05);
+}
 
 nav ul {
   display: flex;
@@ -39,6 +51,25 @@ nav ul li a {
 nav ul li a:hover {
   color: #79da6e;
   font-weight: bold;
+}
+
+.kurse {
+  opacity: 80%;
+}
+.überuns {
+  opacity: 80%;
+}
+.kalender {
+  opacity: 80%;
+}
+.kontakt {
+  opacity: 80%;
+}
+.lehrer {
+  opacity: 80%;
+}
+.startseite {
+  opacity: 80%;
 }
 
 @media (max-width: 600px) {
