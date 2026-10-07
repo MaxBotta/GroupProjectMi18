@@ -1,9 +1,10 @@
-body{background-color:#EBEEE9 ;
+body{
+    background-color:#EBEEE9 ;
 }
-
-
-
-
+.überschrift { 
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
 .Kards {
     display: flex;
     gap: 20px;
@@ -23,4 +24,15 @@ color: rgb(47, 61, 48);}
 }
 div h2{
     margin-top:0px;
+}
+.Button{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px; 
+    background-color: #e0f2ea;
+    color: rgb(0, 32, 8);
+}
+.Kards img {
+    width: 300px;
+    height: 200px;
 }
