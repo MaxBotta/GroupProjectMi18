@@ -33,7 +33,23 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
     color: #79da6e;
-    font-weight: bold;
+    opacity: 100%;
+} 
+
+@media (max-width: 600px) {
+
+    nav ul {
+        gap: 15px;
+        padding: 10px 15px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
 }
