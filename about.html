@@ -6,19 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HTML und CSS</title>
   <link href="./index.css" rel="stylesheet" />
+  <link href="./footer.css" rel="stylesheet" />
 </head>
 
 <body>
-  <div class="hacke">
-    <h1>logo</h1>
-
-
-
-
-
-
-
-  </div>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <img src="./images/logo.png" class="logo" />
+        </li>
+        <li class="startseite">
+          <a href="index.html">Startseite</a>
+        </li>
+        <li>
+          <a href="about.html">Über uns</a>
+        </li>
+        <li>
+          <a href="courses.html">Kurse</a>
+        </li>
+        <li>
+          <a href="calendar.html">Kalender</a>
+        </li>
+        <li>
+          <a href="teacher.html/">Lehrer</a>
+        </li>
+        <li>
+          <a href="contact.html">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <div class="überschrift">
     <h1>wollen sie mehr über uns wissen?</h1>
     <h1>
@@ -74,104 +92,90 @@
       </p>
     </div>
   </div>
-<div class="vidioallg">
+  <div class="vidioallg">
 
-  <div class="vidüberschrieft">
-    <h2>Entdecke die Welt der Webentwicklung</h2>
-  </div>
-
-  <div class="vidtext">
-    <p>
-      Lerne, wie du mit HTML und CSS moderne, kreative und
-      professionelle Websites gestalten kannst. Entdecke
-      hilfreiche Tipps und entwickle deine Fähigkeiten Schritt
-      für Schritt weiter!
-    </p>
-  </div>
-
-  <div class="mainvid">
-    <iframe
-      width="100%"
-      height="400"
-      src="https://www.youtube.com/embed/kMT54MPz9oE"
-      title="HTML und CSS Tutorial"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
-  </div>
-
-  <div class="vidlogo">
-    <p>HTML  CSS – Lerne. Entwickle. Gestalte.</p>
-  </div>
-
-</div>
-
-
-
-
-
+    <div class="vidüberschrieft">
+      <h2>Entdecke die Welt der Webentwicklung</h2>
     </div>
 
+    <div class="vidtext">
+      <p>
+        Lerne, wie du mit HTML und CSS moderne, kreative und
+        professionelle Websites gestalten kannst. Entdecke
+        hilfreiche Tipps und entwickle deine Fähigkeiten Schritt
+        für Schritt weiter!
+      </p>
+    </div>
 
+    <div class="mainvid">
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/kMT54MPz9oE" title="HTML und CSS Tutorial"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
 
+    <div class="vidlogo">
+      <p>HTML CSS – Lerne. Entwickle. Gestalte.</p>
+    </div>
 
-
+  </div>
 
 
 
 
 
   </div>
-  <div class="ende">
-    <ul>
-      <li>
-        beliebte kurse
-      </li>
-      <li>
-        21
-      </li>
-      <li>
-        32
-      </li>
-      <li>
-        43
-      </li>
-      <li>
-        54
-      </li>
-    </ul>
-    <ul>
-      <li>
-        themengebiete
-      </li>
-      <li>
-        65
-      </li>
-      <li>
-        76
-      </li>
-      <li>
-        87
-      </li>
-      <li>
-        98
-      </li>
-    </ul>
-    <ul>
-      <li>
-        links
-      </li>
-      <li>
-        kurse
-      </li>
-      <li>kalender</li>
-      <li>
-        kontakt
-      </li>
-    </ul>
-
 
   </div>
+
+
+  <footer>
+    <section class="footer_head">
+      <img src="./images/logo.png" class="logo" />
+      <section class="footer_head_right">
+        <input class="email_input" type="email" placeholder="📧 Enter your email o get the latest news..." />
+        <button class="sub_button">Subscribe</button>
+      </section>
+    </section>
+    <hr class="hr_footer" />
+    <section class="footer_mid">
+      <section class="Kurse">
+        <ul>
+          <h4>Beliebte Kurse</h4>
+          <li>Twenty One</li>
+          <li>Thirty Two</li>
+          <li>Fourty Three</li>
+          <li>Fifty Four</li>
+        </ul>
+      </section>
+      <section class="Themen">
+        <ul>
+          <h4>Themengebiete</h4>
+          <li>Twenty One</li>
+          <li>Thirty Two</li>
+          <li>Fourty Three</li>
+          <li>Fifty Four</li>
+        </ul>
+      </section>
+      <section class="Links">
+        <ul>
+          <h4>Links</h4>
+          <li>Twenty One</li>
+          <li>Thirty Two</li>
+          <li>Fourty Three</li>
+        </ul>
+      </section>
+    </section>
+    <hr class="hr_footer" />
+    <section class="footer_footer">
+      <section class="footer_left">
+        <p>CompanyName @ 202X. All rights reserved.</p>
+      </section>
+      <section class="footer_right">
+        <p>Datenschutz</p>
+        <p>Impressum</p>
+      </section>
+    </section>
+  </footer>
 </body>
 
 </html>
