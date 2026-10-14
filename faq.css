@@ -1,0 +1,49 @@
+body {
+    background-color: #EBEEE9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.faq {
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.faq details {
+    width: 600px;
+    max-width: 90%;
+    margin: 12px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq summary {
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+
+.faq summary::after {
+    content: "+";
+    float: right;
+}
+
+.faq details[open] summary::after {
+    content: "−";
+}
+
+.faq p {
+    padding: 0 20px 20px;
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+}
