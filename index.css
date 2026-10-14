@@ -54,7 +54,7 @@ nav ul li a:hover {
 }
 
 main {
-  padding: 20px 50px;
+  padding: 40px 120px;
 }
 
 .kurse {
@@ -90,31 +90,24 @@ main {
     font-size: 13px;
   }
 }
-  background-color: white;
-}
 
 .überschrift {
-  
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-
-
 
   background-color: white;
   padding: 10px;
   margin: 20px;
 
-  margin-top: 10px
+  margin-top: 10px;
 }
-
 
 .counter {
   font-weight: bold;
   color: black;
   font-size: 20px;
-  
 }
 
 .row {
@@ -129,54 +122,43 @@ display: flex;
   padding: 10px;
   border: 1px solid #697077;
   margin-top: 100px;
-color: #697077;
+  color: #697077;
 }
-.hacke{
-background-color: #456E40;
-margin: 20px;
-padding: 20px;
-padding-bottom: 10px;
-padding-top: 10px;
 
+.hacke {
+  background-color: #456e40;
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
-.text{
-justify-content: center;
-align-items: center;
-display: flex;
-color: #456E40;
-
+.text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #456e40;
 }
-.unterschrifttext{
-justify-content: center;
-align-items: center;
-display: flex;
-
+.unterschrifttext {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.ende{
-display: flex;
-gap: 450px;
-justify-content: center;
-margin-top: 200px;
-background-color: #456E40;
-
+.ende {
+  display: flex;
+  gap: 450px;
+  justify-content: center;
+  margin-top: 200px;
+  background-color: #456e40;
 }
-.vidioallg{
-background-color: #697077;
-
-
-
-
-
+.vidioallg {
+  background-color: #697077;
 }
-.vidüberschrieft{
-display: flex;
-justify-content: center;
-
+.vidüberschrieft {
+  display: flex;
+  justify-content: center;
 }
-.vidtext{
-color: #697077;
-display: flex;
-justify-content: center;
-
-
+.vidtext {
+  color: #697077;
+  display: flex;
+  justify-content: center;
 }
