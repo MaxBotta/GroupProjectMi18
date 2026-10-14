@@ -1,0 +1,279 @@
+HTML
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - MOOC</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #252b2d;
+        }
+
+        header {
+            background-color: #426b3d;
+            padding: 10px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: black;
+            font-size: 38px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 22px;
+            font-size: 12px;
+        }
+
+        .contact {
+            min-height: 607px;
+            padding: 73px 20px 50px;
+            text-align: center;
+        }
+
+        .section {
+            position: absolute;
+            left: 0;
+            color: #777;
+            font-size: 22px;
+        }
+
+        .contact h4 {
+            color: #082c80;
+            margin-bottom: 3px;
+        }
+
+        .contact h1 {
+            font-size: 29px;
+            margin-top: 0;
+        }
+
+        form {
+            max-width: 490px;
+            margin: 35px auto 0;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            font-size: 11px;
+            margin-bottom: 6px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 11px;
+            margin-bottom: 12px;
+            background-color: #f0f2f6;
+            border: none;
+            border-bottom: 1px solid #ccd0d6;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            height: 68px;
+            resize: vertical;
+        }
+
+        button {
+            display: block;
+            margin: -2px auto 0;
+            padding: 11px 20px;
+            background-color: #1761ff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #426b3d;
+            color: white;
+            padding: 32px 5% 40px;
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .newsletter input {
+            width: 245px;
+            margin: 0;
+        }
+
+        .newsletter button {
+            display: inline-block;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #a3b69d;
+            margin: 32px 0 40px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-links h4 {
+            font-size: 12px;
+        }
+
+        .footer-links p {
+            font-size: 11px;
+            line-height: 1.2;
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+        }
+
+        .bottom a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header, .footer-top, .bottom {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+
+            nav a {
+                margin-left: 8px;
+            }
+
+            .section {
+                display: none;
+            }
+
+            .contact h1 {
+                font-size: 24px;
+            }
+
+            .footer-links {
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+
+            .newsletter input {
+                width: 180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">MOOC</div>
+
+        <nav>
+    <a href="about.html">Über Uns</a>
+    <a href="courses.html">Kurse</a>
+    <a href="calendar.html">Kalender</a>
+    <a href="contact.html">Kontakt</a>
+</nav>
+
+    </header>
+
+    <section class="contact">
+        <div class="section">Section</div>
+
+        <h4>CONTACT ME</h4>
+        <h1>Bibendum amet at molestie mattis.</h1>
+
+        <form>
+            <label>Email</label>
+            <input type="text" placeholder="">
+
+            <label>Number</label>
+            <input type="email" placeholder="">
+
+            <label>Contact</label>
+            <input type="text" placeholder="">
+
+            <label>course</label>
+            <select>
+                <option></option>
+                <option>Allgemeine Frage</option>
+                <option>Frage zu einem Kurs</option>
+            </select>
+
+            <label>issue</label>
+            <textarea placeholder=""></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="logo">MOOC</div>
+
+            <div class="newsletter">
+                <input type="email" placeholder="✉ Enter your email to get the latest news...">
+                <button>Subscribe</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-links">
+            <div>
+                <h4>Beliebte Kurse</h4>
+                <p>Twenty One</p>
+                <p>Thirty Two</p>
+                <p>Fourty Three</p>
+                <p>Fifty Four</p>
+            </div>
+
+            <div>
+                <h4>Themengebiete</h4>
+                <p>Sixty Five</p>
+                <p>Seventy Six</p>
+                <p>Eighty Seven</p>
+                <p>Ninety Eight</p>
+            </div>
+
+            <div>
+                <h4>Links</h4>
+                <p>Kurse</p>
+                <p>Kalender</p>
+                <p>Kontakt</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="bottom">
+            <p>CompanyName @ 202X. All rights reserved.</p>
+
+            <p>
+                <a href="#">Datenschutz</a>
+                <a href="#">Impressum</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
