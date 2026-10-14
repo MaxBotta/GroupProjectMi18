@@ -1,0 +1,38 @@
+body{
+    background-color:#EBEEE9 ;
+}
+.überschrift { 
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.Kards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+div {
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #1b2b19;
+    background-color: #d0e4c4;
+color: rgb(47, 61, 48);}
+.courses{
+    text-align: center;
+}
+div h2{
+    margin-top:0px;
+}
+.Button{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px; 
+    background-color: #e0f2ea;
+    color: rgb(0, 32, 8);
+}
+.Kards img {
+    width: 300px;
+    height: 200px;
+}

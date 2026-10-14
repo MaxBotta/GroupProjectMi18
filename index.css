@@ -53,6 +53,10 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
+main {
+  padding: 20px 50px;
+}
+
 .kurse {
   opacity: 80%;
 }
